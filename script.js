@@ -3,14 +3,12 @@ const button = document.getElementById("clickButton");
 let i = 1;
 
 button.addEventListener('click', function () {
-    // Между function и () не должно быть пробела
 
     if (i === 1) {
         let elem2 = document.getElementById('secondCircle');
 
         elem2.style.background = 'yellow';
         elem2.style.boxShadow = '0 0 10px yellow';
-        // Когда на момент написания кода известны стили, гораздо правильнее и проще устанавливать стили элементам через классы, а не через свойство style
 
         let elem1 = document.getElementById('firstCircle');
         elem1.style.background = 'grey';
