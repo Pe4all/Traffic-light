@@ -22,8 +22,6 @@ body {
     box-shadow: 0 0 5px black;
 }
 
-/* Не повторяйте одинаковые CSS-свойства и значения. Используйте одно правило стилей с общим селектором.
-Почитайте про принцип DRY – Do not repeat yourself – https://ru.wikipedia.org/wiki/Don%E2%80%99t_repeat_yourself . */
 #firstCircle {
     display: inline-block;
     margin: 0px 20px 0px 0px;
